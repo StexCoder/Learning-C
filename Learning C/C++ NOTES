@@ -1,0 +1,126 @@
+What is C++?
+C++ is a cross-platform language that can be used to create high-performance applications.
+
+C++ was developed by Bjarne Stroustrup, as an extension to the C language.
+
+C++ gives programmers a high level of control over system resources and memory.
+
+The language was updated 4 major times in 2011, 2014, 2017, and 2020 to C++11, C++14, C++17, C++20.
+
+Difference between C and C++
+C++ was developed as an extension of C, and both languages have almost the same syntax.
+
+The main difference between C and C++ is that C++ support classes and objects, while C does not.
+
+#include <iostream> is a header file library that lets us work with input and output objects, such as cout (used in line 5). Header files add functionality to C++ programs.
+
+Line 2: using namespace std means that we can use names for objects and variables from the standard library.
+
+
+
+C++ User Input
+You have already learned that cout is used to output (print) values. Now we will use cin to get user input.
+
+cin is a predefined variable that reads data from the keyboard with the extraction operator (>>).
+
+In the following example, the user can input a number, which is stored in the variable x. Then we print the value of x:
+
+Example
+int x; 
+cout << "Type a number: "; // Type a number and press enter
+cin >> x; // Get user input from the keyboard
+cout << "Your number is: " << x; // Display the input value
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+asic Data Types
+The data type specifies the size and type of information the variable will store:
+
+Data Type	Size	Description
+boolean	1 byte	Stores true or false values
+char	1 byte	Stores a single character/letter/number, or ASCII values
+int	2 or 4 bytes	Stores whole numbers, without decimals
+float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
+double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+
+
+
+
+C++ divides the operators into the following groups:
+
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Bitwise operators
+
+
+
+Arithmetic Operators
+Arithmetic operators are used to perform common mathematical operations.
+
+Operator	Name	Description	Example	
++	Addition	Adds together two values	x + y	
+-	Subtraction	Subtracts one value from another	x - y	
+*	Multiplication	Multiplies two values	x * y	
+/	Division	Divides one value by another	x / y	
+%	Modulus	Returns the division remainder	x % y	
+++	Increment	Increases the value of a variable by 1	++x	
+--	Decrement	Decreases the value of a variable by 1	--x	
+
+
+Operator	Example	Same As	
+=	x = 5	x = 5	
++=	x += 3	x = x + 3	
+-=	x -= 3	x = x - 3	
+*=	x *= 3	x = x * 3	
+/=	x /= 3	x = x / 3	
+%=	x %= 3	x = x % 3	
+&=	x &= 3	x = x & 3	
+|=	x |= 3	x = x | 3	
+^=	x ^= 3	x = x ^ 3	
+>>=	x >>= 3	x = x >> 3	
+<<=	x <<= 3	x = x << 3
+
+
+
+
+
+
+--------------------------------------------------
+
+
+C++ Comparison Operators
+Comparison Operators
+Comparison operators are used to compare two values (or variables). This is important in programming, because it helps us to find answers and make decisions.
+
+The return value of a comparison is either 1 or 0, which means true (1) or false (0). These values are known as Boolean values, and you will learn more about them in the Booleans and If..Else chapter.
+
+In the following example, we use the greater than operator (>) to find out if 5 is greater than 3:
+
+Example
+int x = 5;
+int y = 3;
+cout << (x > y); // returns 1 (true) because 5 is greater than 3
+A list of all comparison operators:
+
+Operator	Name	Example	Try it
+==	Equal to	x == y	
+!=	Not equal	x != y	
+>	Greater than	x > y	
+<	Less than	x < y	
+>=	Greater than or equal to	x >= y	
+<=	Less than or equal to	x <= y
+
+
+
+
+
+
+
+
+
